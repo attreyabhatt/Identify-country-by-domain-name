@@ -1,9 +1,9 @@
 import json
 import random
 
-f = open("country-by-domain-tld.json")
-data = json.load(f)
-f.close()
+country_domain_file = open("country-by-domain-tld.json")
+data = json.load(country_domain_file)
+country_domain_file.close()
 
 number_of_countries_tld = len(data)
 
