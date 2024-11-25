@@ -26,8 +26,9 @@ while True:
             print("Wrong. The correct answer is: " + country_name)
             score = score - 1
         if score > 0 :
-            print("Current Score: " + str(score))
+            print("Current Score: " + str(score)  + "\n")
         else:
-            print("Current Score: 0")
+            score = 0
+            print("Current Score: 0"+ "\n")
         
 
